@@ -8,8 +8,3 @@ message("${CMAKE_MODULE_PATH}")
 message("${EIGEN3_INCLUDE_DIR}")
 
 add_executable (executable main.cpp)
-
-target_link_libraries(executable 
-    PUBLIC
-        Eigen
-)
